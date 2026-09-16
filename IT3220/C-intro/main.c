@@ -45,6 +45,23 @@ int main()
     printf("Pages: %u\n\n", pages);
 
     // all in one line
-    printf("Students: %i\nBalance: %i\nPages: %u\n", students, balance, pages);
+    printf("Students: %i\nBalance: %i\nPages: %u\n\n", students, balance, pages);
+
+    double value = 12.34567;
+    printf("Default: %f\n", value);
+    printf("One decimal: %.1f\n", value);
+    printf("Two decimals %.2f\n", value);
+    printf("Scientific: %e\n\n", value);
+
+    char grade = 'A';
+    char course[] = "Introduction to C programming";
+    printf("Grade: %c\n", grade);
+    printf("Course: %s\n\n", course);
+
+    int x = 4;
+    int y = 7;
+    double average = 5.5678;
+    printf("x = %d, y = %d, average = %.1f\n",x, y, average);
+
     return 0;
 }
