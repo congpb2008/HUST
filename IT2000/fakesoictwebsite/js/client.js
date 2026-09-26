@@ -1,0 +1,1 @@
+(function($){$(document).ready(function(){$(".section-header .btn-menu").click(function(){$('.section-header .ux-menu').toggleClass('open-menu')})});$(document).ready(function(){$(document).scroll(function(){var menu=$('.section-header');if($(this).scrollTop()>200){menu.addClass('fixed')}else{menu.removeClass('fixed')}})})})(jQuery)
