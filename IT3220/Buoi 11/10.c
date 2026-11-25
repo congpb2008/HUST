@@ -7,7 +7,7 @@ int DigitAllSame(int n){
 
     while (n > 0) {
         digitValue = n % 10;
-        if (n%2)
+        if (n%2 == 0)
             evenC += 1;
         else
             oddC += 1;
